@@ -1,0 +1,26 @@
+ESPAÇO DA JUH — ARQUIVOS DO SITE
+
+Extraia esta pasta antes de utilizar os arquivos.
+
+Para testar no computador, instale o Node.js 24 ou superior.
+Abra um terminal na pasta espaco-da-juh e execute:
+
+npm run dev
+
+Abra no navegador:
+Agenda das clientes: http://localhost:4173/
+Painel de testes: http://localhost:4173/admin
+
+O painel local usa uma conta fictícia para testes. Nenhuma senha,
+banco de produção ou registro real de cliente está incluído neste ZIP.
+
+Os arquivos editáveis estão em public/ e worker/.
+O comando npm run build gera os arquivos de publicação em dist/.
+
+A agenda utiliza servidor, banco D1 e autenticação fornecida pelo ambiente
+original de publicação. Para hospedar em outro serviço, inclusive Vercel,
+esses componentes precisam ser configurados ou adaptados. Não é um site
+que mantém o painel compartilhado apenas abrindo um HTML no navegador.
+O README.md explica a estrutura e o funcionamento.
+
+As alterações feitas nesta cópia não alteram automaticamente o site publicado.
